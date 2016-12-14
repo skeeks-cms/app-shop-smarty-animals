@@ -1,5 +1,0 @@
-DirectoryIndex index.html
-
-AddHandler my-action htm html
-
-AddDefaultCharset Off

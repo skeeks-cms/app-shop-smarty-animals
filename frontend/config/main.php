@@ -56,11 +56,6 @@ $config = [
                             ]
                     ],
             ],
-
-            'assetsAutoCompress' =>
-            [
-                'noIncludeJsFilesOnPjax'         => true,
-            ],
         ]
 ];
 return $config;

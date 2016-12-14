@@ -48,17 +48,6 @@ $config = [
             'class'        => 'common\components\SettingsComponent',
         ],
 
-        'mailer' => [
-            'transport' => [
-              'class' => 'Swift_SmtpTransport',
-              'host' => 'smtp.yandex.ru',
-              'username' => 'info@skeeks.com',
-              'password' => 'QuekiarputkabIvIgoySeefKo',
-              'port' => '465',
-              'encryption' => 'ssl',
-            ],
-        ],
-
         'cmsAgent' => [
             'onHitsEnabled'     => false
         ],
