@@ -1,0 +1,37 @@
+Код;Родительский ID;Наименование;фасовка;Единица измерения;Цена в валюте прайса;Бренд;картинка;Цвет
+w20874;;HUSKY INTERIOR&EXTERIOR PRIMER Грунт-краска для интерьеров и фасадов;;;;HUSKY;http://www.dekart.ru/content/images/thumbs/0001551_husky_interior_exterior_primer_100_.jpeg;
+20874;w20874;;10;л;1097,7642;;;
+w20755;;HUSKY SUPER PAINT CELING Краска потолочная;;;;HUSKY;;
+20755;w20755;;2,5;л;593,8101;;;
+20756;w20755;;10;л;2048,6583;;;
+w20757;;HUSKY SUPER PAINT EXTERIOR Краска фасадная;;;;HUSKY;http://www.dekart.ru/content/images/thumbs/0001517_husky_super_paint_exterior_100_.jpeg;
+20757;w20757;;2,5;л;861,0264;;;
+20758;w20757;;10;л;3072,9933;;;
+w18237;;HUSKY SUPER PAINT INTERIOR Краска интерьерная;;;;HUSKY;http://www.dekart.ru/content/images/thumbs/0001642_husky_super_paint_interior_100_.jpeg;
+18237;w18237;;2,5;л;894,348;;;
+18185;w18237;;10;л;2988,1449;;;
+w21663;;HUSKY GLOSS ECO ENAMEL Глянцевая эко-эмаль;;;;HUSKY;http://www.dekart.ru/content/images/thumbs/0001766_husky_gloss_eco_enmel_100_.jpeg;
+21663;w21663;;0,9;л;643,5585;;;
+21664;w21663;;2,5;л;1501,227;;;
+w21718;;HUSKY SEMI-MATT ECO ENAMEL полуматовая эко-эмаль;;;;HUSKY;http://www.dekart.ru/content/images/thumbs/0001767_husky_semi_matt_eco_enmel_100_.jpeg;
+21718;w21718;;0,9;л;643,5585;;;
+21719;w21718;;2,5;л;1501,227;;;
+17795;w21718;JOBI Грунтовка аэрозольная белая;400;мл;252,1467;JOBI;http://www.dekart.ru/content/images/thumbs/0000059_jobi_haftgrund_.jpg;
+17796;w21718;JOBI Лак аэрозольный бесцветный;400;мл;217,8774;JOBI;http://www.dekart.ru/content/images/thumbs/0000080_jobi_schutzlack_.jpg;
+w15191;;JOBI Эмаль аэрозольная глянцевая;;;;JOBI;http://www.dekart.ru/content/images/thumbs/0000049_jobi_aerozollack_.jpg;
+15191;w15191;;400;мл;231,9642;;;белая RAL 9010
+15202;w15191;;400;мл;231,9642;;http://www.dekart.ru/content/images/thumbs/0000049_jobi_aerozollack_.jpg;вишневая RAL 3005
+5195;w15191;;400;мл;231,9642;;http://www.dekart.ru/content/images/thumbs/0000049_jobi_aerozollack_.jpg; голубая RAL 5015
+15199;w15191;;400;мл;231,9642;;http://www.dekart.ru/content/images/thumbs/0000049_jobi_aerozollack_.jpg; желтая RAL 1021
+15194;w15191;;400;мл;231,9642;;http://www.dekart.ru/content/images/thumbs/0000049_jobi_aerozollack_.jpg;зеленая RAL 6029
+19513;w15191;;400;мл;231,9642;;http://www.dekart.ru/content/images/thumbs/0000049_jobi_aerozollack_.jpg;зеленый мох RAL 6005
+15201;w15191;;400;мл;231,9642;;http://www.dekart.ru/content/images/thumbs/0000049_jobi_aerozollack_.jpg; коричневая RAL 8011
+15197;w15191;;400;мл;231,9642;;http://www.dekart.ru/content/images/thumbs/0000049_jobi_aerozollack_.jpg; красная RAL 3020
+15198;w15191;;400;мл;231,9642;;http://www.dekart.ru/content/images/thumbs/0000049_jobi_aerozollack_.jpg;оранжевая RAL 2003
+15193;w15191;;400;мл;231,9642;;http://www.dekart.ru/content/images/thumbs/0000049_jobi_aerozollack_.jpg;серая RAL 7001
+15200;w15191;;400;мл;231,9642;;http://www.dekart.ru/content/images/thumbs/0000049_jobi_aerozollack_.jpg;серебро RAL 9006
+15196;w15191;;400;мл;231,9642;;http://www.dekart.ru/content/images/thumbs/0000049_jobi_aerozollack_.jpg;синяя RAL 5010
+19512;w15191;;400;мл;231,9642;;http://www.dekart.ru/content/images/thumbs/0000049_jobi_aerozollack_.jpg;слоновая кость RAL 1015
+16794;w15191;;400;мл;231,9642;;http://www.dekart.ru/content/images/thumbs/0000049_jobi_aerozollack_.jpg;т-зеленая RAL 6020
+16793;w15191;;400;мл;231,9642;;http://www.dekart.ru/content/images/thumbs/0000049_jobi_aerozollack_.jpg;т-коричневая RAL 8017
+15192;w15191;;400;мл;231,9642;;http://www.dekart.ru/content/images/thumbs/0000049_jobi_aerozollack_.jpg;черная RAL 9005
