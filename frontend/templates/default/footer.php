@@ -8,7 +8,7 @@
 /* @var $this \yii\web\View */
 ?>
 <!-- FOOTER -->
-<footer id="footer">
+<footer id="footer" class="row">
     <div class="container">
         <div class="row">
             <div class="col-md-3">

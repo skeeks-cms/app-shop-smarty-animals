@@ -26,7 +26,9 @@ if (strpos(\Yii::$app->request->pathInfo, $dir) !== false)
             <?/* if ($icon = $model->relatedPropertiesModel->getAttribute('icon')) : */?><!--
                 <img src="<?/*= $icon; */?>" />
             --><?/* endif; */?>
+            <span>
             <?= $model->name; ?>
+            </span>
         </a>
 
         <ul class="dropdown-menu">
@@ -47,7 +49,9 @@ if (strpos(\Yii::$app->request->pathInfo, $dir) !== false)
                 <img src="<?/*= $icon; */?>" style="margin-right: 9px;"/><?/* endif; */?>
 
             --><?/* endif; */?>
+            <span>
             <?= $model->name; ?>
+            </span>
         </a>
     <? endif; ?>
 </li>

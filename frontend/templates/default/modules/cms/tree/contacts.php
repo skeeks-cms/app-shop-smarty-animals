@@ -33,12 +33,12 @@ CSS
                 <h2>Контакты</h2>
                 <hr/>
                 <p>
-                    <span class="block"><strong><i class="fa fa-map-marker"></i> Адрес:</strong> г. Воронеж, ул Холмистая 26</span>
+                    <span class="block"><strong><i class="fa fa-map-marker"></i> Адрес:</strong> г. Солнечногорск...</span>
                     <span class="block"><strong><i class="fa fa-phone"></i> Телефон:</strong>
-                        <a href="tel:+79803432915" style="font-size: 21px; text-decoration: none;">+7 (980) 343-29-15</a>
+                        <a href="tel:+74993434040" style="font-size: 21px; text-decoration: none;">+7 (499) 343-40-40</a>
                     </span>
                     <span class="block"><strong><i class="fa fa-envelope"></i> Email:</strong> <a
-                            href="mailto:info@stroykray.ru">info@stroykray.ru</a></span>
+                            href="mailto:info@zoogum.ru">info@zoogum.ru</a></span>
                 </p>
 
                 <div class="margin-top-20">
