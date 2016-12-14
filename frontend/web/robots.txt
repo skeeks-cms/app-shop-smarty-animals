@@ -1,4 +1,2 @@
 User-agent: *
-Disallow: /~*
-Host: stroykray.ru
-Sitemap: http://stroykray.ru/sitemap.xml
+Disallow: /
