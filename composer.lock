@@ -58,38 +58,19 @@
         },
         {
             "name": "bower-asset/codemirror",
-            "version": "5.19.0",
+            "version": "5.21.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/codemirror/CodeMirror.git",
-                "reference": "a350d03f15df2892e41b094faa85a08459942845"
+                "url": "https://github.com/components/codemirror.git",
+                "reference": "e2f8466a372b7295432c92a11316768fdf9c4d40"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codemirror/CodeMirror/zipball/a350d03f15df2892e41b094faa85a08459942845",
-                "reference": "a350d03f15df2892e41b094faa85a08459942845",
+                "url": "https://api.github.com/repos/components/codemirror/zipball/e2f8466a372b7295432c92a11316768fdf9c4d40",
+                "reference": "e2f8466a372b7295432c92a11316768fdf9c4d40",
                 "shasum": ""
             },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": [
-                    "lib/codemirror.js",
-                    "lib/codemirror.css"
-                ],
-                "bower-asset-ignore": [
-                    "**/.*",
-                    "node_modules",
-                    "components",
-                    "bin",
-                    "demo",
-                    "doc",
-                    "test",
-                    "index.html",
-                    "package.json",
-                    "mode/*/*test.js",
-                    "mode/*/*.html"
-                ]
-            }
+            "type": "bower-asset-library"
         },
         {
             "name": "bower-asset/fancybox",
@@ -459,16 +440,16 @@
         },
         {
             "name": "giggsey/libphonenumber-for-php",
-            "version": "7.7.3",
+            "version": "7.7.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/giggsey/libphonenumber-for-php.git",
-                "reference": "e55e956a7a8211af3dfbd9dd5372ccc5eb79e495"
+                "reference": "7137cef7f295d225aec2a290f6829c1c71a1ffb0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/e55e956a7a8211af3dfbd9dd5372ccc5eb79e495",
-                "reference": "e55e956a7a8211af3dfbd9dd5372ccc5eb79e495",
+                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/7137cef7f295d225aec2a290f6829c1c71a1ffb0",
+                "reference": "7137cef7f295d225aec2a290f6829c1c71a1ffb0",
                 "shasum": ""
             },
             "require": {
@@ -517,7 +498,7 @@
                 "phonenumber",
                 "validation"
             ],
-            "time": "2016-10-26 13:35:16"
+            "time": "2016-11-23 15:39:02"
         },
         {
             "name": "giggsey/locale",
@@ -2243,16 +2224,16 @@
         },
         {
             "name": "skeeks/cms-module-reviews2",
-            "version": "1.3.1",
+            "version": "1.3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/skeeks-cms/cms-module-reviews2.git",
-                "reference": "39aa532d6b9b734e47e67d6b6b2680e59c4c9855"
+                "reference": "5dc47ba976efda21f7012fe687f56e0a376e7ae9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-cms/cms-module-reviews2/zipball/39aa532d6b9b734e47e67d6b6b2680e59c4c9855",
-                "reference": "39aa532d6b9b734e47e67d6b6b2680e59c4c9855",
+                "url": "https://api.github.com/repos/skeeks-cms/cms-module-reviews2/zipball/5dc47ba976efda21f7012fe687f56e0a376e7ae9",
+                "reference": "5dc47ba976efda21f7012fe687f56e0a376e7ae9",
                 "shasum": ""
             },
             "require": {
@@ -2285,7 +2266,7 @@
                 "skeeks",
                 "yii2"
             ],
-            "time": "2016-10-10 16:06:16"
+            "time": "2016-12-06 16:42:15"
         },
         {
             "name": "skeeks/cms-rbac",
@@ -2696,12 +2677,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/skeeks-semenov/yii2-assets-auto-compress.git",
-                "reference": "40193e628bc8370f3a8cb9819d7063c54a0d04fa"
+                "reference": "18d80abd2bbce79e11fa1c0484ab72f08e772cb2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skeeks-semenov/yii2-assets-auto-compress/zipball/40193e628bc8370f3a8cb9819d7063c54a0d04fa",
-                "reference": "40193e628bc8370f3a8cb9819d7063c54a0d04fa",
+                "url": "https://api.github.com/repos/skeeks-semenov/yii2-assets-auto-compress/zipball/18d80abd2bbce79e11fa1c0484ab72f08e772cb2",
+                "reference": "18d80abd2bbce79e11fa1c0484ab72f08e772cb2",
                 "shasum": ""
             },
             "require": {
@@ -2739,7 +2720,7 @@
                 "skeeks",
                 "yii"
             ],
-            "time": "2016-10-29 16:02:00"
+            "time": "2016-11-11 08:29:19"
         },
         {
             "name": "skeeks/yii2-ckeditor",
@@ -3236,16 +3217,16 @@
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v5.4.3",
+            "version": "v5.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "4cc92842069c2bbc1f28daaaf1d2576ec4dfe153"
+                "reference": "545ce9136690cea74f98f86fbb9c92dd9ab1a756"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/4cc92842069c2bbc1f28daaaf1d2576ec4dfe153",
-                "reference": "4cc92842069c2bbc1f28daaaf1d2576ec4dfe153",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/545ce9136690cea74f98f86fbb9c92dd9ab1a756",
+                "reference": "545ce9136690cea74f98f86fbb9c92dd9ab1a756",
                 "shasum": ""
             },
             "require": {
@@ -3285,7 +3266,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2016-07-08 11:51:25"
+            "time": "2016-11-24 01:01:23"
         },
         {
             "name": "tedivm/jshrink",
@@ -3574,21 +3555,21 @@
         },
         {
             "name": "yiisoft/yii2-debug",
-            "version": "2.0.6",
+            "version": "2.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-debug.git",
-                "reference": "55ed2e853ed8050a34415f63a4da84f88a56f895"
+                "reference": "a74a2433ad1dfda30a253a92f6db52c131807432"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/55ed2e853ed8050a34415f63a4da84f88a56f895",
-                "reference": "55ed2e853ed8050a34415f63a4da84f88a56f895",
+                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/a74a2433ad1dfda30a253a92f6db52c131807432",
+                "reference": "a74a2433ad1dfda30a253a92f6db52c131807432",
                 "shasum": ""
             },
             "require": {
-                "yiisoft/yii2": ">=2.0.4",
-                "yiisoft/yii2-bootstrap": "*"
+                "yiisoft/yii2": "~2.0.4",
+                "yiisoft/yii2-bootstrap": "~2.0.0"
             },
             "type": "yii2-extension",
             "extra": {
@@ -3617,7 +3598,7 @@
                 "debugger",
                 "yii2"
             ],
-            "time": "2016-03-17 03:50:19"
+            "time": "2016-11-24 09:42:29"
         },
         {
             "name": "yiisoft/yii2-httpclient",
