@@ -1,0 +1,17 @@
+.idea
+*.sublime-project
+*.sublime-workspace
+
+# composer vendor dir
+/vendor
+vendor/*
+/vendor/*
+
+# composer itself is not needed
+composer.phar
+.composer
+/.composer
+
+
+/.quarantine
+.quarantine

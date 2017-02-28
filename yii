@@ -1,0 +1,22 @@
+#!/usr/bin/env php
+<?php
+/**
+ * Перечень необязательных констант, если их не определить они будут определены по ходу выполнения проекта.
+ * Ниже закомментированы их значения по умолчанию
+ */
+//define('YII_ENV',                 'dev');                   //Необязательная константа, если не будет определена, то определение произойдет по ходу выполнения проекта
+//define('YII_DEBUG',               true);                    //Необязательная константа, если не будет определена, то определение произойдет по ходу выполнения проекта
+//define("COMMON_DIR",              ROOT_DIR . '/common');    //Где общая папка
+//define("COMMON_CONFIG_DIR",       COMMON_DIR . '/config');  //Общие конфиги
+//define("COMMON_RUNTIME_DIR",      COMMON_DIR . '/runtime'); //Временные файлы
+//define("VENDOR_DIR",              ROOT_DIR . '/vendor');    //Вендоры
+
+define("ROOT_DIR",              __DIR__);
+define("APP_DIR",               __DIR__ . '/console');
+
+define("APP_CONFIG_DIR",        realpath(APP_DIR . '/config'));
+define("APP_RUNTIME_DIR",       realpath(APP_DIR . '/runtime'));
+
+//Загрузка и запуск web приложения skeeks
+$skeeksFile = ROOT_DIR . '/vendor/skeeks/cms/app-console.php';
+include $skeeksFile;

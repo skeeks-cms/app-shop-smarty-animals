@@ -1,0 +1,30 @@
+AddDefaultCharset UTF-8
+php_value default_charset "UTF-8"
+php_value error_reporting       2039
+
+# Mod_Autoindex
+<IfModule mod_autoindex.c>
+  # Запрещаем просмотр содержимого папок
+  Options -Indexes
+</IfModule>
+
+# Mod_Rewrite
+<IfModule mod_rewrite.c>
+  Options +FollowSymlinks
+  # Включаем mod_rewrite
+  RewriteEngine On
+
+  # редиррект для seo
+  RewriteCond %{HTTP_HOST} ^www.demo.ru$ [NC]
+  RewriteRule ^(.*)$ http://demo.ru/$1 [R=301,L]
+
+  #301 редирект с www на без www (главное зеркало – домен без www)
+  RewriteCond %{HTTP_HOST} ^www\.(.*)$
+  RewriteRule ^(.*)$ http://%1/$1 [L,R=301]
+
+  # Если это папка или файл, открываем её/его
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  # В противном случае перенаправляем на index.php
+  RewriteRule . index.php
+</IfModule>
