@@ -1,14 +1,14 @@
 {
-    "name": "skeeks/app-shop-animals",
+    "name": "skeeks/app-shop-smarty-animals",
     "description": "Магазин на базе SkeekS CMS",
     "keywords": ["framework", "cms", "skeeks", "sx", "app", "yii2"],
-    "homepage": "http://cms.skeeks.com",
+    "homepage": "https://cms.skeeks.com",
     "type": "project",
     "license": "BSD-3-Clause",
     "support": {
-        "issues": "http://cms.skeeks.com",
-        "wiki": "http://git.skeeks.com/skeeks/cms/wikis/home",
-        "source": "http://git.skeeks.com/skeeks/cms-app"
+        "issues": "https://cms.skeeks.com",
+        "wiki": "https://cms.skeeks.com/docs",
+        "source": "https://git.skeeks.com/skeeks/cms-app"
     },
     "authors": [
         {
@@ -83,7 +83,6 @@
     },
     "config": {
         "process-timeout": 1800,
-        "discard-changes": true,
-        "github-oauth": {"github.com":"6d5599184f19c2932ba93a0cfd4dd3e008a9139c"}
+        "discard-changes": true
     }
 }
