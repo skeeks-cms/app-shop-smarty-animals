@@ -15,8 +15,8 @@ php_value error_reporting       2039
   RewriteEngine On
 
   # редиррект для seo
-  RewriteCond %{HTTP_HOST} ^stroykray.ru.vps60.s2.h.skeeks.com$ [NC]
-  RewriteRule ^(.*)$ http://stroykray.ru/$1 [R=301,L]
+  RewriteCond %{HTTP_HOST} ^www.demo.ru$ [NC]
+  RewriteRule ^(.*)$ http://demo.ru/$1 [R=301,L]
 
   #301 редирект с www на без www (главное зеркало – домен без www)
   RewriteCond %{HTTP_HOST} ^www\.(.*)$

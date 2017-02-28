@@ -44,7 +44,12 @@
         "skeeks/cms-import-csv-shop-content": "*",
         "skeeks/cms-export-csv-content": "*",
         "skeeks/cms-export-shop-yandex-market": "*",
-        "skeeks/cms-related-handler-extra": "*"
+        "skeeks/cms-related-handler-extra": "*",
+        "skeeks/cms-shop-cart-steps-widget": "*",
+        "skeeks/cms-shop-cart-items-widget": "*",
+        "skeeks/cms-shop-checkout-widget": "*",
+        "skeeks/cms-shop-discount-coupon-widget": "*",
+        "skeeks/cms-rp-view-widget": "*"
     },
     "minimum-stability" : "dev",
     "prefer-stable" : true,

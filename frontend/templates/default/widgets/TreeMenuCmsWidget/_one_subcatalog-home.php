@@ -12,7 +12,7 @@
 <li class="col-md-3 col-sm-6 md-margin-bottom-30">
     <div class="shop-item">
         <div class="thumbnail catalog_list">
-            <a href="<?= $model->url; ?>" class="shop-item-image">
+            <a data-pjax="0" href="<?= $model->url; ?>" class="shop-item-image">
                 <img class="sx-lazy" src="<?= \Yii::$app->settings->imageLoader; ?>" data-original="
                 <?= \skeeks\cms\helpers\Image::getSrc(\Yii::$app->imaging->getImagingUrl($model->image ? $model->image->src : null,
                     new \skeeks\cms\components\imaging\filters\Thumbnail([
@@ -25,7 +25,7 @@
             <!--<div class="easy-block-v1-badge rgba-purple"><? /*= $model->name; */ ?></div>-->
         </div>
         <div class="shop-item-summary text-center">
-            <h2><a href="<?= $model->url; ?>"><?= $model->name; ?></a></h2>
+            <h2><a data-pjax="0" href="<?= $model->url; ?>"><?= $model->name; ?></a></h2>
         </div>
     </div>
 </li>

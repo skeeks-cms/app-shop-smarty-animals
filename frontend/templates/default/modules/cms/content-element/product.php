@@ -48,6 +48,7 @@ $shopCmsContentElement = new \skeeks\cms\shop\models\ShopCmsContentElement($mode
 $shopProduct = \skeeks\cms\shop\models\ShopProduct::getInstanceByContentElement($model);
 $product = \common\models\Moto::instance($model);
 $shopProduct->createNewView();
+
 ?>
 <?= $this->render('@template/include/breadcrumbs', [
     'model' => $model
@@ -82,9 +83,9 @@ $shopProduct->createNewView();
                                         .top-left
                                 -->
                                 <a class="lightbox sx-fancy bottom-right " title="<?= $model->image ? $model->image->name : ''; ?>"
-                                   href="<?= \Yii::$app->imaging->thumbnailUrlOnRequest($model->image ? $model->image->src : null,
+                                   href="<?= $model->image ? \Yii::$app->imaging->thumbnailUrlOnRequest($model->image ? $model->image->src : null,
                                        new \common\thumbnails\MediumWatermark(), $model->code
-                                   ) ?>" data-plugin-options='{"type":"image"}'>
+                                   ) : \skeeks\cms\helpers\Image::getCapSrc(); ?>" data-plugin-options='{"type":"image"}'>
                                     <i class="glyphicon glyphicon-search"></i>
                                 </a>
                                 <!--
@@ -95,7 +96,7 @@ $shopProduct->createNewView();
                                 <a class="sx-fancybox-gallary" style="display: none;" data-fancybox-group="gallery"
                                    href="<?= $model->image ? $model->image->src : ''; ?>" title="<?= $model->image ? $model->image->name : ''; ?>"></a>
                                 <img src="<?= \Yii::$app->settings->imageLoader; ?>" class="img-responsive sx-lazy"
-                                     data-original="<?= $model->image ? $model->image->src : ''; ?>" title="<?= $model->name; ?>"
+                                     data-original="<?= $model->image ? $model->image->src : \skeeks\cms\helpers\Image::getCapSrc(); ?>" title="<?= $model->name; ?>"
                                      alt="<?= $model->name; ?>" width="1200">
                             </figure>
                         </div>
@@ -247,29 +248,17 @@ JS
                             <!--
                             <span class="pull-right text-danger"><i class="glyphicon glyphicon-remove"></i> Out of Stock</span>
                             -->
-                            <p><strong>Артикул:</strong>
-                                <? if ($offer) : ?>
-                                <?= $offer->relatedPropertiesModel->getSmartAttribute('sku'); ?></p>
-                            <? else : ?>
-                            <?= $model->relatedPropertiesModel->getSmartAttribute('sku'); ?></p>
-                            <? endif; ?>
-                            <!--<p><strong>Категория:</strong> <a href="<? /*= $model->cmsTree->url; */ ?>"><? /*= $model->cmsTree->name; */ ?></a></p>
-    -->
-                            <? if ($model->relatedPropertiesModel->getAttribute('composition')) : ?>
-                            <p>
-                                <strong>Состав:</strong> <?= $model->relatedPropertiesModel->getAttribute('composition'); ?>
-                            </p>
-                            <? endif; ?>
-                            <? if ($model->relatedPropertiesModel->getAttribute('brand')) : ?>
-                            <p>
-                                <strong>Бренд:</strong> <?= $model->relatedPropertiesModel->getSmartAttribute('brand'); ?>
-                            </p>
-                            <? endif; ?>
-                            <? if ($model->relatedPropertiesModel->getAttribute('season')) : ?>
-                            <p>
-                                <strong>Сезон:</strong> <?= $model->relatedPropertiesModel->getSmartAttribute('season'); ?>
-                            </p>
-                            <? endif; ?>
+
+                            <? $widget = \skeeks\cms\rpViewWidget\RpViewWidget::beginWidget('product-properties', [
+                                'model' => $model,
+                                //'visible_properties' => ['color', 'material'],
+                                //'visible_only_has_values' => true,
+                                //'viewFile' => '@app/views/your-file',
+                            ]); ?>
+                                <?/* $widget->viewFile = '@app/views/modules/cms/content-element/_product-properties';*/?>
+                            <? \skeeks\cms\rpViewWidget\RpViewWidget::end(); ?>
+
+
 
 
                             <? if ($propPaint = $model->relatedPropertiesModel->getAttribute('propPaint')) : ?>
@@ -400,7 +389,7 @@ JS
                     <li role="presentation"><a href="#sx-reviews" role="tab" data-toggle="tab">Отзывы
                             (<?= $product->reviewsCount ?>)</a></li>
 
-                    <li role="presentation"><a href="#sx-vk" role="tab" data-toggle="tab">Обсуждение</a></li>
+                    <!--<li role="presentation"><a href="#sx-vk" role="tab" data-toggle="tab">Обсуждение</a></li>-->
                     <!--<li role="presentation"><a href="#sx-feedback" role="tab" data-toggle="tab">Обратная связь</a></li>
                 -->
                 </ul>

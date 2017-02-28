@@ -40,7 +40,7 @@ $config = [
 
         'assetManager' =>
         [
-            'linkAssets'        => true,
+            'linkAssets'        => false,
         ],
 
         'settings' =>
@@ -49,7 +49,7 @@ $config = [
         ],
 
         'cmsAgent' => [
-            'onHitsEnabled'     => false
+            'onHitsEnabled'     => true
         ],
     ],
 ];

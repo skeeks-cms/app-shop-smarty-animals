@@ -19,12 +19,12 @@
 				<h4 class="letter-spacing-1">О нас</h4>
 
 				<!-- Small Description -->
-				<p>MyPaprika.ru</p>
+				<p>SkeekS.com</p>
 				<p>Магазин брендовой одежды</p>
 
 				<!-- Contact Address -->
 				<address style="margin-top: 5px;">
-					<a href="tel:+79168168679" style="font-size: 21px; text-decoration: none;">+7 (916) 816-86-79</a>
+					<a href="tel:+74950057926" style="font-size: 21px; text-decoration: none;">(+7 495) 005-79-26</a>
 					<p>
 						<a href="#sx-callback" class="sx-fancybox" style="text-decoration: none; border-bottom: 1px dashed">Заказать обратный звонок</a>
 					</p>

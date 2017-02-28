@@ -8,23 +8,18 @@
 ?>
 
 <!-- TOGGLE -->
-<!--<div class="toggle-transparent toggle-bordered-full clearfix">
+<div class="toggle-transparent toggle-bordered-full clearfix">
 
     <div class="toggle nomargin-top">
         <label>Купон</label>
 
         <div class="toggle-content" style="display: none;">
-            <p>Укажите код вашего купона.</p>
-
-            <form action="#" method="post" class="nomargin">
-                <input type="text" id="cart-code" name="cart-code" class="form-control text-center margin-bottom-10" placeholder="Код купона" required="required">
-                <button class="btn btn-primary btn-block" type="submit">Получить скидку</button>
-            </form>
+            <?= \skeeks\cms\shopDiscountCoupon\ShopDiscountCouponWidget::widget(); ?>
         </div>
     </div>
 
 
-</div>-->
+</div>
 <!-- /TOGGLE -->
 
 <div class="toggle-transparent toggle-bordered-full clearfix">

@@ -35,10 +35,10 @@ CSS
                 <p>
                     <span class="block"><strong><i class="fa fa-map-marker"></i> Адрес:</strong> г. Солнечногорск...</span>
                     <span class="block"><strong><i class="fa fa-phone"></i> Телефон:</strong>
-                        <a href="tel:+74993434040" style="font-size: 21px; text-decoration: none;">+7 (499) 343-40-40</a>
+                        <a href="tel:+74950057926" style="font-size: 21px; text-decoration: none;">(+7 495) 005-79-26</a>
                     </span>
                     <span class="block"><strong><i class="fa fa-envelope"></i> Email:</strong> <a
-                            href="mailto:info@zoogum.ru">info@zoogum.ru</a></span>
+                            href="mailto:info@skeeks.com">info@skeeks.com</a></span>
                 </p>
 
                 <div class="margin-top-20">
