@@ -2,7 +2,7 @@
 /**
  * @author Semenov Alexander <semenov@skeeks.com>
  * @link http://skeeks.com/
- * @copyright 2010 SkeekS (ÑêèêÑ)
+ * @copyright 2010 SkeekS (ï¿½ï¿½ï¿½ï¿½ï¿½)
  * @date 30.04.2016
  */
 return [
@@ -19,6 +19,10 @@ return [
                 ],
             ],
         ],
+        'urlManager' => [
+            'baseUrl'   => '',
+            //'hostInfo' => 'https://demo.ru'
+        ]
     ],
 
     'params' => [],

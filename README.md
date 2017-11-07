@@ -1,31 +1,25 @@
-Shop all for animals on SkeekS CMS (Yii2)
-=========================
+Магазин на базе SkeekS CMS (yii2 cms)
+================
 
-[![skeeks!](https://en.cms.skeeks.com/uploads/all/35/fd/33/35fd33aa306823dbaf53a0142d43b3fa.png)](https://cms.skeeks.com)
+[![skeeks!](http://cms.skeeks.com/uploads/all/02/bb/d1/02bbd1ed904fc44bdee66e33b661cf2c/sx-filter__skeeks-cms-components-imaging-filters-Thumbnail/15f3c42a5e338e459b5bfe72f1874494/sx-file.png?w=409&h=258)](http://cms.skeeks.com)  
 
-##Links
-* [Web site (SkeekS CMS)](https://cms.skeeks.com)
-* [Docs (SkeekS CMS)](https://cms.skeeks.com/docs)
-* [Author](https://skeeks.com)
-* [ChangeLog](https://github.com/skeeks-cms/cms/blob/master/CHANGELOG.md)
+##Info
 
-##Install
+* [Сайт о SkeekS CMS (about)](http://cms.skeeks.com)
+* [Докуметация (wiki)](http://dev.cms.skeeks.com/docs)
+* [Установка (install)](http://dev.cms.skeeks.com/docs/dev/ustanovka-nastroyka-konfigurirov/ustanovka-s-ispolzovaniem-composer)
+
+Installation
+------------
 
 ```bash
 # Download latest version of composer
 curl -sS https://getcomposer.org/installer | COMPOSER_HOME=.composer php
+
 # Installing the base project SkeekS CMS
-COMPOSER_HOME=.composer php composer.phar create-project --no-install --prefer-dist skeeks/app-shop-smarty-animals demo.ru
+COMPOSER_HOME=.composer php composer.phar create-project --prefer-dist --stability=dev skeeks/app-shop-smarty-animals demo.ru
 # Going into the project folder
 cd demo.ru
-# Download latest version of composer in project
-curl -sS https://getcomposer.org/installer | COMPOSER_HOME=.composer php
-# Extra plug-ins
-COMPOSER_HOME=.composer php composer.phar global require fxp/composer-asset-plugin --no-plugins
-# Download dependency
-COMPOSER_HOME=.composer php composer.phar install -o
-# Run the command to initialize the project, the installer executable file and the necessary rights to the directory
-php yii cms/init
 
 #Edit the file to access the database, it is located at common/config/db.php
 
@@ -33,12 +27,16 @@ php yii cms/init
 php yii dbDumper/mysql/restore
 ```
 
+##Backend (username and password by default)
 
-##Screenshots
+http://your-site.ru/~sx
+
+root
+
+skeeks
 
 ___
 
-> [![skeeks!](https://gravatar.com/userimage/74431132/13d04d83218593564422770b616e5622.jpg)](https://skeeks.com)  
+> [![skeeks!](https://skeeks.com/img/logo/logo-no-title-80px.png)](https://skeeks.com)  
 <i>SkeekS CMS (Yii2) — quickly, easily and effectively!</i>  
 [skeeks.com](https://skeeks.com) | [cms.skeeks.com](https://cms.skeeks.com)
-
