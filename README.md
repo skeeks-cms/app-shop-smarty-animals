@@ -9,35 +9,22 @@
 * [Докуметация (wiki)](http://dev.cms.skeeks.com/docs)
 * [Установка (install)](http://dev.cms.skeeks.com/docs/dev/ustanovka-nastroyka-konfigurirov/ustanovka-s-ispolzovaniem-composer)
 
-##Install
+Installation
+------------
 
-* Install files
-```php
-//Скачивание свежей версии composer
-php -r "readfile('https://getcomposer.org/installer');" | php
-//Установка базового проекта SkeekS CMS
-COMPOSER_HOME=.composer php composer.phar create-project --no-install --prefer-dist skeeks/app-shop app-basic
-//Спускаемся в папку
-cd app-basic
-//Качаем композер в проект
-php -r "readfile('https://getcomposer.org/installer');" | php
-//Используем самую последнюю стабильную версию
-COMPOSER_HOME=.composer php composer.phar self-update 1.0.0-alpha11
-//Установка дополнительных плагинов
-COMPOSER_HOME=.composer php composer.phar global require "fxp/composer-asset-plugin:1.1.1" --profile
-//Ну и собственно установка проекта
-//В процессе вероятнее всего у вас будет запрошен доступ к github, поскольку большинство пакетов лежат именно на его серверах
-COMPOSER_HOME=.composer php composer.phar install
-//После установки, запуск команды, для инициализации проекта
-php yii cms/init
-```
+```bash
+# Download latest version of composer
+curl -sS https://getcomposer.org/installer | COMPOSER_HOME=.composer php
 
-* Db connect
-Update file: common/config/db.php
+# Installing the base project SkeekS CMS
+COMPOSER_HOME=.composer php composer.phar create-project --prefer-dist --stability=dev skeeks/app-shop-smarty-animals demo.ru
+# Going into the project folder
+cd demo.ru
 
-* Install migrations
-```php
-php yii cms/db/first-dump-restore
+#Edit the file to access the database, it is located at common/config/db.php
+
+#Installation of ready-dump
+php yii dbDumper/mysql/restore
 ```
 
 ##Backend (username and password by default)
@@ -48,8 +35,8 @@ root
 
 skeeks
 
-____
-> [![skeeks!](https://gravatar.com/userimage/74431132/13d04d83218593564422770b616e5622.jpg)](http://skeeks.com)  
-<i>SkeekS CMS (Yii2) — быстро, просто, эффективно!</i>  
-[skeeks.com](http://skeeks.com) | [cms.skeeks.com](http://cms.skeeks.com) | [marketplace.cms.skeeks.com](http://marketplace.cms.skeeks.com)
+___
 
+> [![skeeks!](https://skeeks.com/img/logo/logo-no-title-80px.png)](https://skeeks.com)  
+<i>SkeekS CMS (Yii2) — quickly, easily and effectively!</i>  
+[skeeks.com](https://skeeks.com) | [cms.skeeks.com](https://cms.skeeks.com)

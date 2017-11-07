@@ -10,9 +10,8 @@
 \frontend\assets\OwnCarouselAsset::register($this);
 \frontend\assets\ZoomAsset::register($this);
 \frontend\assets\LightBoxAsset::register($this);
-\Yii::$app->cmsToolbar->editUrl = \skeeks\cms\helpers\UrlHelper::construct(['/shop/admin-cms-content-element/update', 'pk' => $model->id])
-    ->setSystemParam(\skeeks\cms\modules\admin\Module::SYSTEM_QUERY_EMPTY_LAYOUT, true)
-    ->enableAdmin()->toString();
+\Yii::$app->cmsToolbar->editUrl = \skeeks\cms\backend\helpers\BackendUrlHelper::createByParams(['/shop/admin-cms-content-element/update', 'pk' => $model->id])
+    ->enableEmptyLayout()->url;
 $this->registerJs(<<<JS
 $(window).ready(function()
 {
