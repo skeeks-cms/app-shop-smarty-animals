@@ -9,17 +9,12 @@
  * @since 1.0.0
  */
 $config = [
-    'name' => 'SkeekS CMS',
-    'vendorPath' => dirname(dirname(__DIR__)) . '/vendor',
-
     'on beforeRequest' => function ($event) {
         \Yii::setAlias('template', '@app/views');
     },
 
     'components'    =>
     [
-        'db' => include_once __DIR__ . '/db.php',
-
         'urlManager' => [
             'rules' => [
                 'search'                                => 'cmsSearch/result',

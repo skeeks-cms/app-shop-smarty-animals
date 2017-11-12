@@ -6,10 +6,7 @@
  * @date 30.04.2016
  */
 return [
-    'id' => 'app-console',
-    'basePath' => dirname(__DIR__),
     'bootstrap' => ['log', 'cms'],
-    'controllerNamespace' => 'console\controllers',
     'components' => [
         'log' => [
             'targets' => [
@@ -19,10 +16,6 @@ return [
                 ],
             ],
         ],
-        'urlManager' => [
-            'baseUrl'   => '',
-            //'hostInfo' => 'https://demo.ru'
-        ]
     ],
 
     'params' => [],
